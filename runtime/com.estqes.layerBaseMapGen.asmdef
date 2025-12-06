@@ -1,0 +1,15 @@
+{
+	"name": "Estqes.MapGen",
+    "rootNamespace": "Estqes.MapGen",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+
+}

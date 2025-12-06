@@ -1,0 +1,19 @@
+{
+  "name": "com.estqes.mapgen",
+  "version": "1.0.0",
+  "displayName": "Estqes Map Generator",
+  "description": "A modular system for procedural map generation based on steps (Pipeline) and regions.",
+  "unity": "2021.3",
+  "keywords": [ "map", "generation", "voronoi", "terrain" ],
+  "author": {
+    "name": "Estqes",
+    "email": ""
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "Examples",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
