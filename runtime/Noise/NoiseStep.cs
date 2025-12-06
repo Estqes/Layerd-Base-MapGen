@@ -79,7 +79,7 @@ namespace Estqes.MapGen
             for (int i = 0; i < mapData.CellsCount; i++)
             {
                 var cell = mapData.Grid.GetCell(i);
-                layer.Layer[i] = _noise.GetNoise(cell.Center.x, cell.Center.y, cell.Center.z) * NoiseAmplitude;
+                layer.Layer[i] = _noise.GetPositiveNoise(cell.Center.x, cell.Center.y, cell.Center.z) * NoiseAmplitude;
             }
         }
     }
