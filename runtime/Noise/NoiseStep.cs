@@ -34,6 +34,7 @@ namespace Estqes.MapGen
     {
         private readonly string _outputLayerName;
         private FastNoiseLite _noise;
+        public float NoiseAmplitude { get; set; } = 1;
         public NoiseStep(string outputLayerName, NoiseSettings settings)
         {
             _outputLayerName = outputLayerName;
@@ -78,7 +79,7 @@ namespace Estqes.MapGen
             for (int i = 0; i < mapData.CellsCount; i++)
             {
                 var cell = mapData.Grid.GetCell(i);
-                layer.Layer[i] = _noise.GetNoise(cell.Center.x, cell.Center.y, cell.Center.z);
+                layer.Layer[i] = _noise.GetNoise(cell.Center.x, cell.Center.y, cell.Center.z) * NoiseAmplitude;
             }
         }
     }
