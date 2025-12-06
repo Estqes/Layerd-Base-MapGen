@@ -1,0 +1,16 @@
+{
+    "name": "MapgenDemo",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7a09dd26983f2c14c99b142040ccfa0a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
